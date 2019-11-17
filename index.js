@@ -72,7 +72,7 @@ client.on('message', function(topic,message) {
 					  min_pulse_ms: 0.8
 					});
 					
-					for(delay = 0; delay < 20000; i_delay++);
+					for(delay = 0; delay < 20000; delay++);
 					
 					matrix.gpio.setServoAngle({
 					  pin: 0,
@@ -93,7 +93,7 @@ client.on('message', function(topic,message) {
 					  min_pulse_ms: 0.8
 					});
 					
-					for(delay = 0; delay < 20000; i_delay++);
+					for(delay = 0; delay < 20000; delay++);
 					
 					matrix.gpio.setServoAngle({
 					  pin: 1,
